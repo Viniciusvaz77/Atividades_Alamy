@@ -10,7 +10,7 @@ public class Agenda {
     }
 
     public void ordenarLista() {
-        Collections.sort(lista);
+        Collections.sort(lista) ;
     }
 
     public void salvarLista(String nomeArquivo) {
@@ -52,4 +52,5 @@ public class Agenda {
 
         return null;
     }
+
 }
